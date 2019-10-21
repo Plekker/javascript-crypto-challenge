@@ -7,6 +7,8 @@ describe('key exchange', () => {
   let rx, tx
   let msg, nonce, ciphertext
 
+//test
+
   beforeAll(async () => {
       // generate own key pair
       await nacl.ready
